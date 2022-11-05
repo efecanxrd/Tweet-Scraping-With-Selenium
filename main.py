@@ -37,3 +37,5 @@ while True: #loop
         tweet_count += 1 #adding 1 to tweet_count
 
 tweets_dataframe = pd.DataFrame(tweets, columns=['tweet'])
+
+print(tweets_dataframe)
